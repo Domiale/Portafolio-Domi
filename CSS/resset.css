@@ -21,11 +21,13 @@
 */
 /* Aquí definimos las Custom properties */
 :root {
-  --negro: #393939;
+  --pink-shadow: #FF67A7;
+  --pink-base: #FFAED0;
+  --highligt: #FFD2E5;
+  --White: #FFF3F8;
+  --negro: #000000;
   /* Tipografía */
-  --tipo-principal: "Be vietnam Pro", sans-serif;
-  --tipo-secundaria: Verdana;
-}
+  --tipo-principal: "Be vietnam Pro", sans-serif;}
 
 /* Las adaptamos al modo oscuro */
 /* @media (prefers-color-scheme: dark) {
@@ -156,6 +158,7 @@ body {
   font-size: 100%;
   font-family: var(--tipo-principal);
   color: var(--negro);
+  background-color: var(--highligt);
   /* opcional */
   line-height: 1.4em;
   /* opcional */
