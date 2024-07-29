@@ -44,3 +44,61 @@
 .header-nav-button:hover{
   background-color: var(--pink-shadow);
 }
+
+
+
+
+/* Hero */
+
+.hero{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+}
+.hero-wrapper{
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  background-color: rgb(187, 255, 0);
+}
+.hero-content{
+  padding: 24px;
+  background-color: rgb(255, 0, 17);
+}
+.hero-tittle{
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 64px;
+  color: var(--pink-shadow);
+  margin-bottom: 24px;
+  background-color: rgb(255, 0, 115);
+}
+.hero-paragraph{
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--negro);
+  margin-bottom: 24px;
+  background-color: rgb(60, 0, 255);
+}
+.hero-botton{
+  width: fit-content;
+  padding: 12px 24px;
+  background-color: var(--pink-base);
+  border-radius: 12px;
+  color: var(--White);
+  font-weight: 900;
+}
+
+.hero-botton:hover{
+  background-color: var(--pink-shadow);
+}
+
+}
+.hero-profile{
+  background-color: rgb(217, 0, 255);
+}
+background-color: aqua;
+.hero-image{
+  background-color: aqua;
+}
