@@ -54,17 +54,14 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: aqua;
 }
 .hero-wrapper{
   max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  background-color: rgb(187, 255, 0);
 }
 .hero-content{
   padding: 24px;
-  background-color: rgb(255, 0, 17);
 }
 .hero-tittle{
   font-size: 64px;
@@ -72,14 +69,12 @@
   line-height: 64px;
   color: var(--pink-shadow);
   margin-bottom: 24px;
-  background-color: rgb(255, 0, 115);
 }
 .hero-paragraph{
   font-size: 18px;
   line-height: 28px;
   color: var(--negro);
   margin-bottom: 24px;
-  background-color: rgb(60, 0, 255);
 }
 .hero-botton{
   width: fit-content;
@@ -96,9 +91,80 @@
 
 }
 .hero-profile{
-  background-color: rgb(217, 0, 255);
+  display: flex;
+  justify-content: center;
 }
 background-color: aqua;
 .hero-image{
-  background-color: aqua;
+  width: 80%;
+}
+
+/* Main */
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main-wrapper{
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Section Services */
+
+.services{
+}
+
+.services-content{
+  max-width:600px;
+  margin-bottom: 24px;
+}
+
+.services-title{
+  font-size: 48px;
+  color: var(--pink-shadow);
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.services-paragraph{
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--negro);
+}
+
+.services-cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 24px;
+}
+
+.services-item{
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  text-align: center;
+  border-radius: 24px;
+  background-color: var(--pink-base);
+  box-shadow: 8px 8px 0 var(--pink-shadow);
+}
+
+.services-image{
+  align-self: center;
+  max-width: 180px;
+}
+
+.services-subtitle{
+  font-size: 32px;
+  font-weight: 900;
+  color: var(--pink-shadow);
+}
+
+.services-description{
+  font-size: 18px;
+  line-height: 30px;
+  hyphens: none;
 }
